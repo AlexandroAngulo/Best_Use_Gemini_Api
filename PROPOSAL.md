@@ -29,15 +29,34 @@ Desarrollar una aplicación web diseñada para guiar a los desarrolladores en la
   3. Si hay áreas de mejora, Gemini genera sugerencias y recursos educativos.
 - **Notificación:** Los consejos se envían directamente al usuario a través de un **Bot de Telegram** o una aplicación móvil complementaria.
 
-## 3. Arquitectura Técnica (Viabilidad)
+## 3. Características Avanzadas (Plus de Valor)
+
+### A. Visualización de Arquitectura (Mermaid.js)
+- **Función:** Gemini genera código en formato Mermaid para representar diagramas de flujo o de base de datos (ERD) basados en el stack elegido.
+- **Valor:** El usuario visualiza la estructura de su solución antes de escribir la primera línea de código.
+
+### B. Generación de Backlog Automático (GitHub Issues)
+- **Función:** La aplicación desglosa la propuesta en una lista de tareas técnicas iniciales.
+- **Valor:** Uso de la API de GitHub para crear automáticamente los primeros *Issues* en el repositorio, eliminando la incertidumbre de "por dónde empezar".
+
+### C. Mentoría en Pull Requests (Code Review Activo)
+- **Función:** Integración directa con los PRs de GitHub para que Gemini deje comentarios técnicos y sugerencias de mejora directamente en el código.
+- **Valor:** Feedback inmediato en el lugar donde ocurre la colaboración, complementando las notificaciones de Telegram.
+
+### D. Scaffolding Inteligente (Boilerplate)
+- **Función:** El script de configuración local (.sh/.bat) no solo prepara Git, sino que crea la estructura de carpetas (`/src`, `/tests`, `/docs`) y archivos base (`.gitignore`, `README.md`).
+- **Valor:** Entrega de un proyecto con estructura profesional listo para desarrollar.
+
+## 4. Arquitectura Técnica (Viabilidad)
 
 - **Frontend:** Aplicación Web (React/Angular/Vue).
 - **Backend:** Servidor (Node.js/Python) encargado de la orquestación.
-- **IA:** API de Gemini para análisis de texto y código.
-- **Integración Git:** GitHub API para gestión de repositorios y Webhooks para eventos en tiempo real.
+- **IA:** API de Gemini para análisis de texto, generación de diagramas y revisión de código.
+- **Integración Git:** GitHub API (Issues, PRs, Content) y Webhooks.
 - **Notificaciones:** API de Telegram Bot.
 
-## 4. Objetivos Principales
+## 5. Objetivos Principales
 - Reducir la fricción al iniciar un nuevo proyecto.
-- Estandarizar las mejores prácticas de Git desde el día uno.
-- Proporcionar mentoría técnica automatizada basada en el código real del usuario.
+- Estandarizar las mejores prácticas de Git y arquitectura desde el inicio.
+- Proporcionar un acompañamiento técnico continuo (backlog y code review).
+- Automatizar las tareas repetitivas de configuración inicial.
