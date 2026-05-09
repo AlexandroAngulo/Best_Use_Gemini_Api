@@ -35,6 +35,9 @@ Estas habilidades han sido añadidas al Gemini CLI para proporcionar guías expe
 | `react-vite-best-practices` | `asyrafhussin/agent-skills` | Patrones de arquitectura y rendimiento en React + Vite. |
 | `mermaid-diagrams` | `hoodini/ai-agents-skills` | Generación y renderizado de diagramas de arquitectura. |
 | `telegram` | `sickn33/antigravity-awesome-skills` | Configuración y manejo de bots de Telegram. |
+| `express-typescript` | `mindrally/skills` | Mejores prácticas y patrones para servidores Express con TS. |
+| `typescript-best-practices` | `jwynia/agent-skills` | Guías avanzadas de tipado y configuración de TypeScript. |
+| `nodejs-backend-typescript`| `bobmatnyc/claude-mpm-skills` | Estructuración de backend y seguridad en Node.js. |
 
 ---
 
